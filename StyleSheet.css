@@ -1,0 +1,91 @@
+
+.header-container{ 
+    background-color : black; 
+    display : flex; 
+    justify-content : center;
+    padding : 20px; 
+}
+.header {
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+    color : cornflowerblue;
+  
+}
+.body-container {
+    display: flex;
+    justify-content: center;
+    background-color: dimgrey;
+}
+
+.body{
+    display : flex;
+    width : 900px;
+    height : 300px;
+    color : cornflowerblue;
+   justify-content : space-between;
+   align-items:center;
+}
+.subscribe,
+.content, .email{
+    align-self:flex-end;
+}
+.logo{
+    margin-left : 2.5cm;
+}
+
+.images-container {
+    display: flex;
+    justify-content: center;
+    background-image: url(https://www.technocrazed.com/wp-content/uploads/2015/12/black-wallpaper-to-set-as-background-5.jpg); 
+    background-size : cover;
+}
+.images{
+    display : flex;  
+    flex-wrap:wrap; 
+    justify-content:center;
+}
+.footer{
+    display : flex; 
+    background-color:rgb(13, 6, 6); 
+    justify-content : space-between;
+}
+.footer-item{
+    border : 1px solid #fff;
+    width : 300px; 
+    height : 130px; 
+    background-color : darkslategrey; 
+    flex : 1; 
+}
+.grid{
+    border-radius : 40px; 
+    width : 75px; 
+    height : 75px; 
+    float : left; 
+    margin-right : 20px; 
+}
+.about, .social{
+    flex : initial; 
+}
+.comment {
+    margin : 20px;
+    overflow : hidden; 
+}
+.username {
+    margin-top: 20px;
+   
+}
+.social{
+    display : flex;
+    justify-content : center; 
+}
+.svg{
+    width : 150px
+}
+.code-symbol {
+    border-radius: 40px;
+    width: 75px;
+    height: 75px;
+    float: left;
+    margin-right: 20px;
+}
